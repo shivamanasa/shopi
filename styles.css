@@ -7,22 +7,21 @@
     
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
-    max-width:100%;
-    overflow-x:hidden;
+     overflow-x:hidden;
 }
 
 body {
     background: #e1ecf2;
     max-width:100%;
-    overflow-x:hidden;
+    
 }
 
 .wrapper {
-    margin: 10px;
+    margin: 0px;
 }
 
 .wrapper .top_navbar {
-    width: calc(100% - 20px);
+    width: calc(100% - 0px);
     height: 60px;
     display: flex;
     position: fixed;
@@ -93,10 +92,10 @@ body {
 .wrapper .sidebar {
     position: fixed;
     top: 60px;
-    left: 10px;
+    left: 0px;
     background: #0501d7;
     width: 200px;
-    height: calc(100% - 80px);
+    height: calc(100% - 0px);
     border-bottom-left-radius: 20px;
     transition: all 0.3s ease;
     text-decoration: none;
@@ -159,6 +158,7 @@ body {
     padding: 15px;
     font-size: 14px;
     line-height: 22px;
+    width: auto;
 }
 
 .wrapper.collapse .sidebar {
@@ -183,13 +183,14 @@ body {
 }
 
 
-
+/*
 .wrapper.collapse .card1 {
     width: 400px;
     height: 250px;
     background-color: aqua;
     margin: 5px;
 }
+*/
 
 .btn {
     background-color: #0633b9;
