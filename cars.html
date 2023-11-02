@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopi | Cars</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/brands.min.css" integrity="sha512-W/zrbCncQnky/EzL+/AYwTtosvrM+YG/V6piQLSe2HuKS6cmbw89kjYkp3tWFn1dkWV7L1ruvJyKbLz73Vlgfg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function() {
+            $(".hamburger").click(function() {
+                $(".wrapper").toggleClass("collapse");
+            });
+        });
+    </script>
+
+    <div class="wrapper">
+        <div class="top_navbar">
+            <div class="hamburger">
+                <div class="one"></div>
+                <div class="two"></div>
+                <div class="three"></div>
+            </div>
+            <div class="top_menu">
+                <div class="logo">
+                    <span class="logoHead" style="font-size: 30px;"><a href="./index.html" style="text-decoration: none; color: whitesmoke;"> Shopi</a></span>
+                </div>
+                <ul>
+                    <li><a href="#">
+                        <i class="fas fa-search"></i>
+                    </a></li>
+                    <li><a href="#">
+                        <i class="fas fa-cart-shopping"></i>
+                    </a></li>
+                    <li><a href="#">
+                        <i class="fas fa-bell"></i>
+                    </a></li>
+                    <li><a href="#">
+                        <i class="fas fa-user"></i>
+                    </a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="sidebar" style="text-align: left;">
+            <ul>
+                <li><a href="./mobiles.html" >
+                    <span class="icon"><i class="fas fa-mobile fa-lg" ></i></span>
+                    <span class="title">Mobiles</span>
+                </a></li>
+               
+                <li><a href="./laptop.html" >
+                    <span class="icon"><i class="fas fa-laptop fa-lg"></i></span>
+                    <span class="title">Laptops</span>
+                </a></li>
+                <li><a href="./electronics.html" >
+                    <span class="icon"><i class="fas fa-lightbulb fa-lg" ></i></span>
+                    <span class="title">Electonics</span>
+                </a></li>
+                <li><a href="./fashion.html" >
+                    <span class="icon"><i class="fas fa-shirt fa-lg"></i></span>
+                    <span class="title">Fashion</span>
+                </a></li>
+                <li><a href="./furniture.html" >
+                    <span class="icon"><i class="fas fa-chair fa-lg"></i></span>
+                    <span class="title">Furniture</span>
+                </a></li>
+                <li><a href="./kitchen.html">
+                    <span class="icon"><i class="fas fa-kitchen-set fa-lg"></i></span>
+                    <span class="title">Kitchen</span>
+                </a></li>
+                <li><a href="./grocery.html" >
+                    <span class="icon"><i class="fas fa-leaf fa-lg"></i></span>
+                    <span class="title">Grocery</span>
+                </a></li>
+                <li><a href="./books.html">
+                    <span class="icon"><i class="fas fa-book fa-lg"></i></span>
+                    <span class="title">Books</span>
+                </a></li>
+                <li><a href="./twowheels.html">
+                    <span class="icon"><i class="fas fa-motorcycle fa-lg"></i></span>
+                    <span class="title">Two Wheelers</span>
+                </a></li>
+                <li><a href="./cars.html" class="active">
+                    <span class="icon"><i class="fas fa-car fa-lg"></i></span>
+                    <span class="title">Cars</span>
+                </a></li>
+            </ul>
+        </div>
+
+        <div class="main_container">
+            <div class="item">
+                <div class="cont">
+                    <div class="carding" style="text-align: center;">
+                        <div class="imgCard">
+                            <img class="img" src="https://imgd-ct.aeplcdn.com/1056x660/n/qy7pp0b_1638615.jpg?q=80" alt="" width="180px" height="120px" style="align-items: center; text-align: center;">
+                           <h3> Mahindra Thar </h3>
+                            <p>Black</p>           
+                            
+                                        
+                                            
+                        </div>
+                        
+                        <span class="cards">
+                            <h3 style="text-align: center;">On Road Price &#8377;18,99,000/-</h3>
+                        </span>
+                        
+                    </div>
+                    <div class="">
+                        <ul>
+                            <li style="text-align: center;">
+                                <button class="btn">To Ride</button>
+                                <button class="btn">Buy Now</button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="cont">
+                    <div class="carding" style="text-align: center;">
+                        <div class="imgCard">
+                            <img class="img" src="https://imgd.aeplcdn.com/0x0/n/cw/ec/35211/ertiga-exterior-right-front-three-quarter-141879.jpeg?q=75" alt="" width="180px" height="120px" style="align-items: center; text-align: center;">
+                           <h3> Maruti Suzuki Ertiga</h3>
+                           
+                           <p>Red</p>           
+                           
+                                                
+                                      
+                                      
+                                        
+                                            
+                        </div>
+                        
+                        <span class="cards">
+                            <h3 style="text-align: center;">On Road Price &#8377; 14,74,673/-</h3>
+                        </span>
+                        
+                    </div>
+                    <div class="">
+                        <ul>
+                            <li style="text-align: center;">
+                                <button class="btn">To Ride</button>
+                                <button class="btn">Buy Now</button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="cont">
+                    <div class="carding" style="text-align: center;">
+                        <div class="imgCard">
+                            <img class="img" src="https://www.varunmaruti.com/uploads/products/colors/dzire-white-merged.png" alt="" width="180px" height="120px" style="align-items: center; text-align: center;">
+                           <h3> Maruti Suzuki Dzire</h3>
+                           <p>White</p>           
+                                  
+                                                
+                                      
+                                      
+                                            
+                        </div>
+                        
+                        <span class="cards">
+                            <h3 style="text-align: center;">On Road Price &#8377; 9,54,499/-  </h3>
+                        </span>
+                        
+                    </div>
+                    <div class="">
+                        <ul>
+                            <li style="text-align: center;">
+                                <button class="btn">To Ride</button>
+                                <button class="btn">Buy Now</button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="cont">
+                    <div class="carding" style="text-align: center;">
+                        <div class="imgCard">
+                            <img class="img" src="https://imgd-ct.aeplcdn.com/664x415/n/ci5qs3a_1588253.jpg?q=80" alt="" width="180px" height="120px" style="align-items: center; text-align: center;">
+                           <h3> Scorpio N SUV</h3>
+                           <p>Gray </p>           
+                                 
+                                                
+                                      
+                                      
+                                            
+                        </div>
+                        
+                        <span class="cards">
+                            <h3 style="text-align: center;">On Road Price &#8377; 23,99,990/- </h3>
+                        </span>
+                        
+                    </div>
+                    <div class="">
+                        <ul>
+                            <li style="text-align: center;">
+                                <button class="btn">To Ride</button>
+                                <button class="btn">Buy Now</button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>            </div>
+        </div>
+    </div>
+</body>
+</html>
