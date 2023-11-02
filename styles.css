@@ -11,6 +11,8 @@
 
 body {
     background: #e1ecf2;
+    max-width:100%;
+    overflow-x:hidden;
 }
 
 .wrapper {
